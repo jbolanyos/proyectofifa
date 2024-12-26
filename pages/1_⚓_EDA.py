@@ -26,4 +26,4 @@ with st.container():
     with col1:
         st.metric(label="Número de filas:", value=df.shape[0], border=True)
 
-st.table(df.head(5))
+#st.table(df.head(5))
