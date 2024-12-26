@@ -20,7 +20,7 @@ url='https://drive.google.com/uc?id=' + url.split('/')[-2]
 df = pd.read_csv(url)
 
 #def main()
-st.write(pd.head(5))
+st.write(df.head(5))
 
 
 #st.header("ANALISIS EXPLORATORIO")
